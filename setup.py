@@ -7,8 +7,13 @@ setup(
     url='https://github.com/zhouxiaoxiang/oriole-bot',
     description='Test microservice project.',
     packages=find_packages(),
-    install_requires=[
-        'buildbot[bundle]',
-        'buildbot-worker'
-    ]
-)
+    install_requires=['buildbot[bundle]', 'buildbot-worker'],
+    classifiers=[
+        "Programming Language :: Python",
+        "Operating System :: POSIX",
+        "Programming Language :: Python :: 3.6",
+        "Topic :: Internet",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Private :: Do Not Upload",
+        "Intended Audience :: Developers",
+    ])
