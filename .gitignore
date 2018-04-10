@@ -12,3 +12,5 @@ report.html
 dist
 .tox
 docs/build
+twistd.pid
+twistd.log
