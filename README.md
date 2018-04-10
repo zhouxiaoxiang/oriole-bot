@@ -40,3 +40,7 @@ config = {
 ```
     make clean
 ```
+
+6. web
+
+http://localhost:8000
