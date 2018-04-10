@@ -14,3 +14,5 @@ dist
 docs/build
 twistd.pid
 twistd.log
+http.log
+venv
