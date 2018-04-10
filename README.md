@@ -19,7 +19,7 @@ config = {
     'user': 'xxx',
     'pass': 'xxx',
     'poll': 2,
-    'cmds': ['virtualenv venv', 'source venv/bin/activate; make; o c /ms/dev; pytest'],
+    'cmds': ['python -mvenv venv', 'source venv/bin/activate; make; o c /ms/dev; pytest'],
     'srcs': [
         'user',
     ]
