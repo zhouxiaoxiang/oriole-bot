@@ -13,6 +13,6 @@ dist
 .tox
 docs/build
 twistd.pid
-twistd.log
+twistd.log*
 http.log
 venv
