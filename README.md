@@ -1,6 +1,6 @@
 # Oriole-bot 
 
-Test oriole-service based projects.
+Run commands in all svn-based projects.
 
 1. Create python3 environment
 ```
@@ -19,19 +19,10 @@ config = {
     'user': 'xxx',
     'pass': 'xxx',
     'poll': 5,
-    'cmds': ['pip install pytest; pytest'],
+    'cmds': ['pytest'],
     'srcs': [
         "user",
     ],
-    'mail': {
-        'fromaddr': "x@y",
-        'sendToInterestedUsers': False,
-        'extraRecipients': ["x@y"],
-        'relayhost': "smtp.163.com",
-        'smtpPort': 25,
-        'smtpUser': "xxx",
-        'smtpPassword': "xxx",
-    },
     'web': "http://localhost:8000/",
 }
 ```
