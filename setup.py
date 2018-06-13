@@ -1,4 +1,36 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
+
+requires = [
+    'attrs==18.1.0',
+    'autobahn==18.6.1',
+    'Automat==0.6.0',
+    'buildbot==1.2.0',
+    'buildbot-console-view==1.2.0',
+    'buildbot-grid-view==1.2.0',
+    'buildbot-waterfall-view==1.2.0',
+    'buildbot-worker==1.2.0',
+    'buildbot-www==1.2.0',
+    'constantly==15.1.0',
+    'decorator==4.3.0',
+    'future==0.16.0',
+    'hyperlink==18.0.0',
+    'idna==2.7',
+    'incremental==17.5.0',
+    'Jinja2==2.10',
+    'MarkupSafe==1.0',
+    'pbr==4.0.4',
+    'pkg-resources==0.0.0',
+    'PyJWT==1.6.4',
+    'python-dateutil==2.7.3',
+    'six==1.11.0',
+    'SQLAlchemy==1.2.8',
+    'sqlalchemy-migrate==0.11.0',
+    'sqlparse==0.2.4',
+    'Tempita==0.5.2',
+    'Twisted==18.4.0',
+    'txaio==2.10.0',
+    'zope.interface==4.5.0',
+]
 
 setup(
     name='oriole-bot',
@@ -7,7 +39,7 @@ setup(
     url='https://github.com/zhouxiaoxiang/oriole-bot',
     description='Test microservice project.',
     packages=find_packages(),
-    install_requires=['buildbot[bundle]', 'buildbot-worker'],
+    install_requires=requires,
     classifiers=[
         "Programming Language :: Python",
         "Operating System :: POSIX",
