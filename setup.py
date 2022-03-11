@@ -27,7 +27,7 @@ requires = [
     'sqlalchemy-migrate==0.11.0',
     'sqlparse==0.2.4',
     'Tempita==0.5.2',
-    'Twisted==18.4.0',
+    'Twisted==22.2.0',
     'txaio==2.10.0',
     'zope.interface==4.5.0',
 ]
