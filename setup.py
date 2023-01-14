@@ -12,7 +12,7 @@ requires = [
     'buildbot-www==1.2.0',
     'constantly==15.1.0',
     'decorator==4.3.0',
-    'future==0.16.0',
+    'future==0.18.3',
     'hyperlink==18.0.0',
     'idna==2.7',
     'incremental==17.5.0',
